@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.social{
+    display: flex;
+    gap: 5px;
+}
+
+.link{
+    position: relative;
+    width: 45px;
+    height: 45px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    overflow: hidden;
+    box-shadow: 0 0 10px #0003;
+    transition: 0.3s;
+}
+
+.facebook{
+    background: #0163e0;
+}
+
+.x{
+    background: #000;
+}
+
+.instagram{
+    background: #cd486b;
+}
+
+.github{
+    background: #212121;
+}
+
+.linkedin{
+    background: #0077d5;
+}
+
+.link:hover{
+    width: 150px;
+}
+
+.icon{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 1.5rem;
+    transition: 0.3s;
+}
+
+.link:hover .icon{
+    width: 30%;
+	transform: translateX(-100%);
+	margin-right: 5px;
+	margin-left: 0px;
+}
+
+.text{
+    position: absolute;
+    right: 0;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 600;
+    width: 0;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.link:hover .text{
+    width: 70%;
+    opacity: 1;
+}
+
