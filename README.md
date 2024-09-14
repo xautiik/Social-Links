@@ -1,5 +1,5 @@
 # Social-Links
-Live Preview: https://xautik.github.io/Social-Links/
+
 #
 ![image](https://github.com/xautik/Social-Links/assets/106868727/6f43866c-6126-4306-a96b-8c158b7cdaa2)
 ![image](https://github.com/xautik/Social-Links/assets/106868727/7ded8a73-6fb7-48b4-89be-07743cb37fee)
